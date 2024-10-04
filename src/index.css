@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Plus Jakarta Sans", system-ui;
+  font-optical-sizing: auto;
+  background: #191919;
+  color: #ececec;
+  scroll-behavior: smooth;
+}
+
+.bg-image {
+  background-image: url("./assets/karan_design_photogprahy.jpg");
+}
+
+#work,
+#about,
+#experience,
+#testimonials,
+#contact {
+  scroll-margin-top: 80px;
+}
